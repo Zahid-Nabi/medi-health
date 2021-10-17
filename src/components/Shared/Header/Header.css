@@ -3,6 +3,7 @@
     max-width: 200px;
 }
 .nav-link a {
+    display: inline-block;
     text-decoration: none;
     color: #111;
     margin: 0 10px;
@@ -13,7 +14,7 @@
 }
 .nav-link a::after {
     content: '';
-    display: block;
+    display: inline-block;
     width: 0;
     height: 3px;
     background: #D86411;

@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, ListGroup, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../../images/logo.png';
-import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -10,12 +10,12 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-top">
                 <Container>
-                    <Row xs={2} md={4}>
-                        <Col>
+                    <Row xs={1} sm={2} md={2} lg={4}>
+                        <Col className="p-3">
                             <img className="w-75 mb-3" src={logo} alt="" />
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit dolorum adipisci distinctio numquam vero odio, eaque, molestiae maxime itaque, inventore hic.</p>
                         </Col>
-                        <Col className="text-center px-5 footer-links">
+                        <Col className="text-center px-5 py-3 footer-links">
                             <h5 className="footer-title">Help Links</h5>
                             <ListGroup variant="flush">
                                 <ListGroup.Item className="bg-transparent"><Link to="/home">Home</Link></ListGroup.Item>
@@ -23,7 +23,7 @@ const Footer = () => {
                                 <ListGroup.Item className="bg-transparent"><Link to="/contact">Contact</Link></ListGroup.Item>
                             </ListGroup>
                         </Col>
-                        <Col className="text-center">
+                        <Col className="text-center p-3">
                             <h5 className="footer-title">Open-Close Time</h5>
                             <ListGroup variant="flush">
                                 <ListGroup.Item className="bg-transparent d-flex justify-content-between">
@@ -40,7 +40,7 @@ const Footer = () => {
                                 </ListGroup.Item>
                             </ListGroup>
                         </Col>
-                        <Col className="ps-4">
+                        <Col className="p-3">
                             <h5 className="footer-title">Newsletter</h5>
                             <Form>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -64,7 +64,7 @@ const Footer = () => {
                             <li><FaTwitter /></li>
                             <li><FaGoogle /></li>
                             <li><FaInstagram /></li>
-                            <li><FaYoutube /></li>
+                            <li><FaLinkedinIn /></li>
                         </ul>
                     </div>
                 </Container>

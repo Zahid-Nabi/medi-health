@@ -1,6 +1,9 @@
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Forgot from './components/Forms/Forgot/Forgot';
+import Login from './components/Forms/Login/Login';
+import Register from './components/Forms/Register/Register';
 import Home from './components/Home/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Shared/Footer/Footer';
@@ -16,6 +19,15 @@ function App() {
         </Route>
         <Route path="/home">
           <Home></Home>
+        </Route>
+        <Route path="/login">
+          <Login></Login>
+        </Route>
+        <Route path="/register">
+          <Register></Register>
+        </Route>
+        <Route path="/forgot">
+          <Forgot></Forgot>
         </Route>
 
 

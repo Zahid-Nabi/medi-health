@@ -62,10 +62,13 @@
     border: none;
     height: 30px;
     padding: 5px 20px;
-    background: rgb(245, 30, 30);
+    background: #D86411;
     color: white;
     cursor: pointer;
     margin: 10px auto 0;
     width: 100%;
     transition: 0.3s;
+}
+.order-btn:hover {
+    background: #1B6DC1;
 }

@@ -3,6 +3,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import { FaRegUser } from 'react-icons/fa';
+import { BiLogOut } from 'react-icons/bi';
 import './Header.css';
 
 const Header = () => {
@@ -23,6 +24,12 @@ const Header = () => {
                         <NavLink to="/login">
                             <button className="login-btn"><FaRegUser /> <span>Login</span></button>
                         </NavLink>
+                        {/* <div className="user-logged-in">
+                            <h5>Welcome! Zahid Nabi</h5>
+                            <NavLink to="/home">
+                                <button className="login-btn"><BiLogOut /> <span>Logout</span></button>
+                            </NavLink>
+                        </div> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

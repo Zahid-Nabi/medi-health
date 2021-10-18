@@ -7,7 +7,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="light">
             <Container>
                 <Navbar.Brand href="#home">
                     <Link to="/home"> <img className="logo" src={logo} alt="MediHealth Logo" /></Link>

@@ -1,0 +1,50 @@
+
+.carousel-item .img-box {
+    position: relative;
+}
+.carousel-item .img-box::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.carousel-item {
+    position: relative;
+}
+.caption-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.caption-box h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+.caption-box p {
+    color: #fff;
+    margin: 30px 0;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.caption-box .btn {
+    background: #D86411;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.caption-box .btn:hover {
+    background: #1B6DC1;
+    color: #fff;
+}

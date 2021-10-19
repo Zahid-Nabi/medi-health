@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css';
+import { FaRegEnvelopeOpen, FaPhone } from 'react-icons/fa';
 
 const Contact = () => {
     return (
@@ -17,11 +18,11 @@ const Contact = () => {
                         <h2 className="heading bold">CONTACT INFO</h2>
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia deserunt mollit anim id.</p>
                         <div className="col-md-6 col-sm-4">
-                            <h3><i className="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
+                            <h3 className="d-flex align-items-center"><FaRegEnvelopeOpen className="medium-icon" /> EMAIL</h3>
                             <p>hello@company.com</p>
                         </div>
                         <div className="col-md-6 col-sm-4">
-                            <h3><i className="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
+                            <h3 className="d-flex align-items-center"><FaPhone className="medium-icon" /> PHONES</h3>
                             <p>010-020-0340 | 090-080-0760</p>
                         </div>
                     </div>

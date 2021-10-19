@@ -1,0 +1,62 @@
+
+.service {
+    position: relative;
+    padding: 10px 30px 30px;
+    text-align: center;
+    background: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 100%;
+    margin: 30px 0;
+}
+.service:hover {
+    box-shadow: 2px 2px 10px gray;
+}
+.service:hover .order-box {
+    bottom: 0;
+    opacity: 1;
+}
+.service .img-box img {
+    max-width: 40%;
+}
+.service .info-box {
+    margin-top: 20px;
+}
+.service-title {
+    font-size: 16px;
+}
+.service-desc {
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+.info-box .price {
+    font-size: 25px;
+}
+.order-box {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -50%;
+    opacity: 0;
+    transition: 0.3s;
+}
+.order-box a {
+    text-decoration: none;
+}
+.order-btn {
+    display: block;
+    border: none;
+    height: 30px;
+    padding: 5px 20px;
+    background: #D86411;
+    color: white;
+    cursor: pointer;
+    margin: 10px auto 0;
+    width: 100%;
+    transition: 0.3s;
+}
+.order-btn:hover {
+    background: #1B6DC1;
+}

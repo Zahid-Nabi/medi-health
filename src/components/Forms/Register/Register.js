@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FcGoogle } from 'react-icons/fc';
+import useAuth from '../../../hooks/useAuth';
 
 const Register = () => {
+    const { signInWithGoogle } = useAuth();
     return (
         <div className="register-container">
             <div className="form-container">
@@ -28,10 +31,7 @@ const Register = () => {
                         <div className="other-login">
                             <p>Or Login With</p>
                             <div className="social-media">
-                                <button>Google</button>
-                                <button>Github</button>
-                                <button>Facebook</button>
-                                <button>Twitter</button>
+                                <button onClick={signInWithGoogle}>Google <FcGoogle /></button>
                             </div>
                             <small className="login-msg"> Already have an account? Please <Link to="/login">Login</Link></small>
                         </div>

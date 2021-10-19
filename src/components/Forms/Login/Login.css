@@ -107,6 +107,15 @@ form input[type="submit"]:hover {
     top: 50%;
     transform: translateY(-50%);
 }
+.other-login button {
+    background: transparent;
+    border: 1px solid #D86411;
+    padding: 5px 20px;
+    box-shadow: 2px 2px 10px gray;
+}
+.other-login button:hover {
+    background: rgb(197, 219, 245);
+}
 .social-media {
     text-align: center;
     margin: 20px 0;

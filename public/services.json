@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Diagnostics & Imaging",
+        "icon": "https://i.ibb.co/dQ8774y/heart.png",
+        "image": "https://images.pexels.com/photos/7089029/pexels-photo-7089029.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "diseases": "CT Scans, Cystoscopy, Laparoscopy, MRI Scans, Ultrasound, X-rays",
+        "desc": "Our Radiology Department at One Hatfield Hospital is fully-equipped with the latest state of the art imaging equipment including Digital X-Ray, wide bore 1.5T MRI (Magnetic Resonance Imaging) scanner, 128 slice CT scanner, interventional radiology and Consultant led Ultrasound. We offer patients the highest quality imaging which is vital for rapid diagnosis and improved treatment. We undertake a range of diagnostic tests, scans and procedures including: MRI scans, CT scans, Ultrasound scans, X-Ray scans"
+    },
+    {
+        "id": 2,
+        "name": "Ear, Nose & Throat",
+        "icon": "https://i.ibb.co/RNB9Zfw/neurology.png",
+        "image": "https://images.pexels.com/photos/6129052/pexels-photo-6129052.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "diseases": "Adenoidectomy, Adult Hearing Assessments, Audiovestibular medicine,Children’s Hearing Assessments, Earwax Microsuction, Grommet Insertion, Hearing Loss Management, Myringoplasty, Septoplasty",
+        "desc": "We have a team of ear, nose and throat, or ENT, consultants on hand and ready to assess your condition rapidly. Problems with the ears, nose and throat are typically very painful and often quite complex to diagnose and treat. ENT also covers swallowing functions and soft tissues of the head and neck, which include the thyroid and salivary glands. Our team are highly skilled, and have experience of working within both the NHS and also private practice, meaning you have peace of mind that they can provide the highest standards of care for you."
+    },
+    {
+        "id": 3,
+        "name": "Endoscopy",
+        "icon": "https://i.ibb.co/vHCwdYG/teeth.png",
+        "image": "https://images.pexels.com/photos/9317204/pexels-photo-9317204.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "diseases": "Colonoscopy, Flexible Sigmoidoscopy, Gastroscopy",
+        "desc": "An endoscopy is a non-surgical procedure that uses an endoscope to examine the digestive tract. An endoscope is a long, thin, flexible tube that has a light and camera at one end. Images of the inside of your body are shown on a television screen. The endoscope's length and flexibility will depend on the part of the body being examined. An endoscopy is used to investigate the cause of your symptoms, diagnose your condition and, sometimes, treat conditions."
+    },
+    {
+        "id": 4,
+        "name": "Renal & Urology",
+        "icon": "https://i.ibb.co/Lz6F8Qx/kidney.png",
+        "image": "https://images.pexels.com/photos/6129236/pexels-photo-6129236.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "diseases": "Circumcision, Cystoscopy, Enlarged Prostate (Benign), Urethrotomy, Vasectomy, Vasectomy Reversal",
+        "desc": "Medi Health renal and urology clinic offers first-class treatments by highly experienced private urologists for a range of conditions and diseases in purpose built hospital.Urology refers to the branch of medicine concerned with the study and treatment of diseases of the urinary tract. If you are experiencing any of the following symptoms, it is advisable that you seek expert medical advice swiftly."
+    },
+    {
+        "id": 5,
+        "name": "Orthopaedics",
+        "icon": "https://i.ibb.co/RvspWJW/orthopedics.png",
+        "image": "https://images.pexels.com/photos/7088486/pexels-photo-7088486.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "diseases": "Foot and Ankle, Hand and Wrist, Hip and Knee, Shoulder and Elbow Unit, Spine and Back Pain Unit",
+        "desc": "When you visit Medi Health for orthopaedic treatment, you will benefit from quick access to some of the leading consultants in the UK. We offer private orthopaedic services for a wide range of conditions affecting the bones and joints such as arthritis, trauma, pain relief, sports injury and genetic disorders. Once you have been assessed, and have a diagnosis, you will then be treated for your condition. Whilst treatment may involve surgical intervention, many of these procedures are minimally invasive surgery using keyhole surgery, to keep your recovery time optimal. Our private hospital is located in Hatfield, Hertfordshire, but it ideally placed for patients in St Albans, Stevenage, Watford, North London, Welwyn, throughout Bedfordshire and further afield."
+    },
+    {
+        "id": 6,
+        "name": "Gynaecology",
+        "icon": "https://i.ibb.co/K6FVTDQ/hematology.png",
+        "image": "https://images.pexels.com/photos/7089031/pexels-photo-7089031.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "diseases": "Endometriosis, Hysterectomy, Hysteroscopic Endometrial Ablation, Hysteroscopy, Menopause",
+        "desc": "Our specialist consultants are highly experienced in diagnosing and treating women that are currently experiencing gynaecological problems, with our medical team and nursing staff offer support in a sensitive and caring manner at all times. You have the flexibility to choose which consultant you would like to care for you."
+    }
+]

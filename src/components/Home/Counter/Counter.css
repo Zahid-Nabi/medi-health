@@ -1,0 +1,12 @@
+.counter-section {
+    padding: 100px 0;
+    background: linear-gradient(to bottom, rgba(20, 54, 148, 0.527), rgba(23, 138, 167, 0.76)), url('../../../images/slide2.jpg') no-repeat fixed left top / cover;
+    text-align: center;
+    color: #fff;
+}
+.counter {
+    margin: 30px 0;
+}
+.counter h2 {
+    font-size: 70px;
+}

@@ -12,7 +12,6 @@ const Team = () => {
             .then(res => res.json())
             .then(data => setDoctors(data));
     }, []);
-    console.log(doctors)
     return (
         <div className="team-section">
             <h3 className="section-title">Meet Our Doctors</h3>

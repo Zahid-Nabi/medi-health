@@ -1,0 +1,48 @@
+#contact {
+    padding: 50px 0;
+    background: linear-gradient(rgba(1, 12, 0, 0.9), rgba(0, 0, 0, 0.8)), url('../../images/slide1.jpg') no-repeat fixed center center;
+    background-size: cover;
+    color: #ffffff;
+  }
+  #contact h2 {
+    padding-bottom: 20px;
+  }
+  #contact h3 {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  #contact .medium-icon {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  #contact .contact-info div {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  #contact form {
+    padding-top: 60px;
+  }
+  #contact .form-control {
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  #contact input {
+    height: 40px;
+  }
+  #contact input[type="submit"] {
+    background: #00c6d7;
+    border: 3px solid #00c6d7;
+    letter-spacing: 1px;
+    margin-top: 18px;
+    height: 50px;
+    color: #ffffff;
+  }
+  #contact input[type="submit"]:hover {
+    color: #000000;
+  }
+  

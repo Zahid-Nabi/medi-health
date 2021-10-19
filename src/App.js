@@ -1,6 +1,8 @@
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import Forgot from './components/Forms/Forgot/Forgot';
 import Login from './components/Forms/Login/Login';
 import Register from './components/Forms/Register/Register';
@@ -28,6 +30,12 @@ function App() {
         </Route>
         <Route path="/forgot">
           <Forgot></Forgot>
+        </Route>
+        <Route path="/about">
+          <About></About>
+        </Route>
+        <Route path="/contact">
+          <Contact></Contact>
         </Route>
 
 

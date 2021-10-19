@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Rechard Kanola",
+        "speciality": "Cardiologist",
+        "img": "https://images.pexels.com/photos/6753420/pexels-photo-6753420.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "id": 2,
+        "name": "Nihaora Filemdi",
+        "speciality": "Neuorologist",
+        "img": "https://images.pexels.com/photos/5998482/pexels-photo-5998482.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "id": 3,
+        "name": "Pinkaja Nehdkal",
+        "speciality": "Medicine Expart",
+        "img": "https://images.pexels.com/photos/5883830/pexels-photo-5883830.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "id": 4,
+        "name": "Shijakra Nedimul",
+        "speciality": "Dentist",
+        "img": "https://images.pexels.com/photos/5726691/pexels-photo-5726691.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    }
+]

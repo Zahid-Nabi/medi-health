@@ -10,9 +10,8 @@ const Header = () => {
     return (
         <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="light">
             <Container>
-                <Navbar.Brand href="#home">
-                    <Link to="/home"> <img className="logo" src={logo} alt="MediHealth Logo" /></Link>
-                </Navbar.Brand>
+                <Link to="/home"> <img className="logo" src={logo} alt="MediHealth Logo" /></Link>
+
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="nav-link mx-auto">

@@ -55,9 +55,9 @@ const Footer = () => {
             <hr />
             <div className="footer-bottom">
                 <Container>
-                    <div className="d-flex justify-content-between">
+                    <div className="d-block d-md-flex justify-content-between text-center">
                         <div className="copyright">
-                            <p className="m-0">&copy; Copyright 2021 | All rights reserved by Medihealth</p>
+                            <p className="mb-5 mb-md-0">&copy; Copyright 2021 | All rights reserved by Medihealth</p>
                         </div>
                         <ul className="social-icons">
                             <li><FaFacebookF /></li>

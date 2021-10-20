@@ -1,0 +1,26 @@
+#service-details {
+    padding: 50px 0;
+    background: linear-gradient(rgba(23, 39, 22, 0.95), rgba(0, 0, 0, 0.85)), url('../../images/slide3.jpg') no-repeat fixed center center;
+    background-size: cover;
+    color: #ffffff;
+  }
+  #service-details .icon-img {
+      width: 7rem;
+      height: 7rem;
+      padding: 1rem;
+      border: 1px solid gray;
+  }
+  #service-details h2 {
+    padding-bottom: 20px;
+  }
+  #service-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+ 
+  #service-details .service-info div {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  

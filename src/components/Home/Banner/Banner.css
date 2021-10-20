@@ -22,24 +22,32 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.caption-box h1 {
+.caption-box .banner-title {
+    width: 95%;
+    max-width: 700px;
+    margin: 0 auto;
     color: #fff;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 700;
+    text-transform: capitalize;
+}
+.caption-box .banner-title span {
+    font-weight: 400;
 }
 .caption-box p {
     color: #fff;
-    margin: 30px 0;
+    margin: 1.875rem 0 0 0;
     letter-spacing: 1px;
     line-height: 1.5;
 }
 
 .caption-box .btn {
     background: #D86411;
-    padding: 5px 20px;
+    padding: 0.3125rem 1.25rem;
+    margin-top: 1.875rem;
     border: none;
     outline: none;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: #fff;
     font-weight: 700;
     transition: 0.3s;

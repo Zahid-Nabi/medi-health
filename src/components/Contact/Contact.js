@@ -16,10 +16,10 @@ const Contact = () => {
                     </div>
                     <div className="col-md-6 col-sm-12 contact-info">
                         <h2 className="heading bold">CONTACT INFO</h2>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia deserunt mollit anim id.</p>
+                        <p>If you have any questions or would like to speak with a member of our team, then please get in touch.If you are contacting us as a patient or potential patient please complete the form or call us.</p>
                         <div className="col-md-6 col-sm-4">
                             <h3 className="d-flex align-items-center"><FaRegEnvelopeOpen className="medium-icon" /> EMAIL</h3>
-                            <p>hello@company.com</p>
+                            <p>hello@medihealth.com</p>
                         </div>
                         <div className="col-md-6 col-sm-4">
                             <h3 className="d-flex align-items-center"><FaPhone className="medium-icon" /> PHONES</h3>

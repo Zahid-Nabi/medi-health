@@ -18,15 +18,18 @@ const About = () => {
                         <img src={aboutImg} className="img-fluid" alt="about img" />
                     </div>
                     <div className="col-md-6 col-sm-12">
-                        <h3 className="bold">DIGITAL TEAM</h3>
-                        <h1 className="heading bold">Best Design Agency from California</h1>
-                        {/* Nav Tabs  */}
-                        <ul className="nav nav-tabs" role="tablist">
+                        <h3 className="bold">MEDI HEALTH</h3>
+                        <h1 className="heading bold">Your total health care solution</h1>
+
+
+
+
+                        {/* <ul className="nav nav-tabs" role="tablist">
                             <li className="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">DESIGN</a></li>
                             <li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">MOBILE</a></li>
                             <li><a href="#social" aria-controls="social" role="tab" data-toggle="tab">SOCIAL</a></li>
                         </ul>
-                        {/* Tab panes */}
+                        
                         <div className="tab-content">
                             <div role="tabpanel" className="tab-pane active" id="design">
                                 <p>Duis aute irure dolor in in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed id est tincidunt, iaculis nulla vel, sodales metus. Morbi interdum accumsan augue, in accumsan neque lacinia sed. Fusce cursus eu ligula ut gravida.</p>
@@ -41,7 +44,7 @@ const About = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

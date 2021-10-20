@@ -13,7 +13,7 @@ const Footer = () => {
                     <Row xs={1} sm={2} md={2} lg={4}>
                         <Col className="p-3">
                             <img className="w-75 mb-3" src={logo} alt="" />
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit dolorum adipisci distinctio numquam vero odio, eaque, molestiae maxime itaque, inventore hic.</p>
+                            <p>Medi Health introduces the latest technology and design features within the facility, aimed at specifically enhancing the patients’ experience and perception of the hospital’s facilities.</p>
                         </Col>
                         <Col className="text-center px-5 py-3 footer-links">
                             <h5 className="footer-title">Help Links</h5>

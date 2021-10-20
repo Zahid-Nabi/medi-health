@@ -1,46 +1,6 @@
 #about {
-    background: #3B3B3B;
-    color: #ffffff;
+    background: rgb(158,206,221);
+    background: radial-gradient(circle, rgba(158,206,221,1) 0%, rgba(184,223,245,1) 48%, rgba(48,189,218,1) 100%);
     padding: 50px 0;
-  }
-  .nav-tabs {
-    margin-top: 20px;
-    border-bottom: 1px solid #606060;
-  }
-  .nav-tabs > li {
-    float: left;
-    margin-bottom: -1px;
-  }
-  .nav-tabs > li > a {
-      display: block;
-        color: #ffffff;
-        font-size: 16px;
-        padding: 10px 20px;
-        border: 0;
-        border-radius: 0;
-  }
-  .nav-tabs > li > a:hover {
-    background-color: transparent;
-  }
-  .nav-tabs > li.active > a,
-  .nav-tabs > li.active > a:hover,
-  .nav-tabs > li.active > a:focus {
-    color: #00c6d7;
-    cursor: default;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-bottom-color: transparent;
-  }
-  .tab-content {
-    padding-top: 20px;
-  }
-  
-  .tab-content a {
-      color: #0CC;
-  }
-  
-  .tab-content a:hover, .tab-content a:link {
-      color: #FF0;
-      text-decoration: none;
   }
   

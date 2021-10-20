@@ -33,6 +33,7 @@ const Header = () => {
                                 <NavLink to="/login">
                                     <button className="login-btn"><FaRegUser /> <span>Login</span></button>
                                 </NavLink>
+
                         }
                     </Nav>
                 </Navbar.Collapse>

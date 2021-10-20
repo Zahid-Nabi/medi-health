@@ -4,26 +4,40 @@ import { FcGoogle } from 'react-icons/fc';
 import useAuth from '../../../hooks/useAuth';
 
 const Register = () => {
-    const { signInWithGoogle } = useAuth();
+    const { signInWithGoogle, handleNameField, handleEmailField, handlePasswordField, handleConfirmPasswordField, handleRegistration, error, success } = useAuth();
     return (
         <div className="register-container">
             <div className="form-container">
                 <div className="form-box">
                     <h2 className="form-title">Create an Account</h2>
                     <div className="form">
-                        <form action="">
+                        <form onSubmit={handleRegistration}>
                             <div className="name">
-                                <input type="text" name="" id="" placeholder="Full Name" />
+                                <input onBlur={handleNameField} type="text" name="" id="" placeholder="Full Name" required />
                             </div>
                             <div className="email">
-                                <input type="email" name="" id="" placeholder="Email" />
+                                <input onBlur={handleEmailField} type="email" name="" id="" placeholder="Email" required />
                             </div>
                             <div className="password">
-                                <input type="password" name="" id="" placeholder="Password" />
+                                <input onBlur={handlePasswordField} type="password" name="" id="" placeholder="Password" required />
                             </div>
                             <div className="password">
-                                <input type="password" name="" id="" placeholder="Confirm Password" />
+                                <input onBlur={handleConfirmPasswordField} type="password" name="" id="" placeholder="Confirm Password" required />
                             </div>
+                            {
+                                error ?
+                                    <div className="error">
+                                        <p className="text-danger">Error: {error}</p>
+                                    </div>
+                                    : ''
+                            }
+                            {
+                                success ?
+                                    <div className="success">
+                                        <p className="text-success">You have successfully registered.</p>
+                                    </div>
+                                    : ''
+                            }
                             <div className="submit">
                                 <input type="submit" value="Register" />
                             </div>

@@ -5,19 +5,19 @@ import { FcGoogle } from 'react-icons/fc';
 import './Login.css';
 
 const Login = () => {
-    const { signInWithGoogle } = useAuth();
+    const { signInWithGoogle, handleEmailField, handlePasswordField, handleLogin } = useAuth();
     return (
         <div className="login-container">
             <div className="form-container">
                 <div className="form-box">
                     <h2 className="form-title">Login</h2>
                     <div className="form">
-                        <form action="">
+                        <form onSubmit={handleLogin}>
                             <div className="email">
-                                <input type="email" name="" id="" placeholder="Email" />
+                                <input onBlur={handleEmailField} type="email" name="" id="" placeholder="Email" />
                             </div>
                             <div className="password">
-                                <input type="password" name="" id="" placeholder="Password" />
+                                <input onBlur={handlePasswordField} type="password" name="" id="" placeholder="Password" />
                                 <Link to="/forgot"><small>Forgot your password?</small></Link>
                             </div>
                             <div className="submit">
